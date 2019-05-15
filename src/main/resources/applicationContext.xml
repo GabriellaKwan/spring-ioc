@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- UserService的创建权交给Spring（通过工厂+反射+配置文件来完成） -->
+    <bean id="userService" class="com.imooc.ioc.demo1.UserServiceImpl"></bean>
+
+</beans>
