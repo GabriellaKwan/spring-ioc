@@ -16,11 +16,11 @@ public class SpringDemo1 {
      * 如果有属性，需要修改源代码，对于程序设计存在耦合问题
      */
     public void demo1(){
-//        UserService userService= new UserServiceImpl();
+        UserService userService= new UserServiceImpl();
         //设置属性,接口里没有设置name 方法，只有实现类Impl里有
         //所以需要new 实现类
-        UserServiceImpl userService = new UserServiceImpl();
-        userService.setName("张三");
+//        UserServiceImpl userService = new UserServiceImpl();
+//        userService.setName("张三");
         userService.sayHello();
     }
     @Test

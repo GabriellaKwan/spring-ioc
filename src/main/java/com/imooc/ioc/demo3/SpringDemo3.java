@@ -5,9 +5,6 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-/**
- * Bean的作用范围的测试
- */
 public class SpringDemo3 {
     @Test
     /**
@@ -32,5 +29,20 @@ public class SpringDemo3 {
         man.run();
 
         applicationContext.close();
+    }
+
+    /**
+     * Bean增强save()测试
+     */
+    @Test
+    public void demo3(){
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        UserDao userDao = (UserDao) applicationContext.getBean("userDao");
+
+        userDao.findAll();
+        userDao.save();
+        userDao.update();
+        userDao.delete();
+
     }
 }
