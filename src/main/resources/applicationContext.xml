@@ -23,8 +23,13 @@
 <!--    <bean id="man" class="com.imooc.ioc.demo3.Man" init-method="setup" destroy-method="teardown">-->
 <!--        <property name="name" value="张三"/>-->
 <!--    </bean>-->
-    <bean class="com.imooc.ioc.demo3.MyBeanPostProcessor"/>
+<!--    <bean class="com.imooc.ioc.demo3.MyBeanPostProcessor"/>-->
 
-    <bean id="userDao" class="com.imooc.ioc.demo3.UserDaoImpl"/>
+<!--    <bean id="userDao" class="com.imooc.ioc.demo3.UserDaoImpl"/>-->
 
+    <!--Bean的构造方法属性注入DI--->
+    <bean id="user" class="com.imooc.ioc.demo4.User">
+        <constructor-arg name="name" value="Gabriella"/>
+        <constructor-arg name="age" value="24"/>
+    </bean>
 </beans>

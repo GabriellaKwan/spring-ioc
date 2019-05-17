@@ -1,0 +1,8 @@
+#Maven ignore
+target/
+
+#idea
+.idea
+/idea/
+
+*.log
