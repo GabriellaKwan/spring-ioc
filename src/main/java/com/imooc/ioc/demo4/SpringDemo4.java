@@ -18,4 +18,11 @@ public class SpringDemo4 {
         Person person = (Person)applicationContext.getBean("person");
         System.out.println(person);
     }
+
+    @Test
+    public void demo3(){
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        Product product = (Product)applicationContext.getBean("product");
+        System.out.println(product);
+    }
 }
