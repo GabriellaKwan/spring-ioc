@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class SpringDemo8 {
     /**
-     *XML
+     *结合XML和属性注入方式
      */
     @Test
     public void demo1(){

@@ -1,9 +1,13 @@
 package com.imooc.ioc_annotation3;
 
+import javax.annotation.Resource;
+
 public class ProductService {
 
+    @Resource(name = "categoryDao")
     private CategoryDao categoryDao;
 
+    @Resource(name = "productDao")
     private ProductDao productDao;
 
     public void setCategoryDao(CategoryDao categoryDao) {

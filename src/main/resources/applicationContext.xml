@@ -113,9 +113,10 @@
 <!--    &lt;!&ndash;开启注解扫描&ndash;&gt;-->
 <!--    <context:component-scan base-package="com.imooc"/>-->
 
+    <context:annotation-config/>
     <bean id="productService" class="com.imooc.ioc_annotation3.ProductService">
-        <property name="productDao" ref="productDao"/>
-        <property name="categoryDao" ref="categoryDao"/>
+<!--        <property name="productDao" ref="productDao"/>-->
+<!--        <property name="categoryDao" ref="categoryDao"/>-->
     </bean>
 
     <bean id="productDao" class="com.imooc.ioc_annotation3.ProductDao"/>
