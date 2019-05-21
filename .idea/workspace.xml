@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="819a0d5b-8196-498f-8d9e-af45e37492e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/Bean1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/Bean2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/Bean1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/Bean1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/SpringDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/SpringDemo7.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,24 +40,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="653">
+              <caret line="113" column="54" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/Bean1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="324">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#80#81#0" expanded="true" />
                 <element signature="e#101#102#0" expanded="true" />
                 <element signature="e#83#84#0" expanded="true" />
                 <element signature="e#104#105#0" expanded="true" />
                 <element signature="e#195#196#0" expanded="true" />
                 <element signature="e#216#217#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/SpringDemo7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/Bean2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,6 +143,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/Bean1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/Bean2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/SpringDemo7.java" />
       </list>
     </option>
   </component>
@@ -327,23 +356,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringDemo7.demo1">
-    <configuration name="SpringDemo5.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.ioc.demo5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.imooc.ioc.demo5" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.ioc.demo5.SpringDemo5" />
-      <option name="METHOD_NAME" value="demo1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SpringDemo7.demo2">
     <configuration name="SpringDemo6.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_ioc" />
       <extension name="coverage">
@@ -408,13 +421,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringDemo7.demo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.ioc_annotation2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.ioc_annotation2" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.ioc_annotation2.SpringDemo7" />
+      <option name="METHOD_NAME" value="demo2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringDemo7.demo2" />
         <item itemvalue="JUnit.SpringDemo7.demo1" />
         <item itemvalue="JUnit.SpringDemo6.demo3" />
         <item itemvalue="JUnit.SpringDemo6.demo2" />
         <item itemvalue="JUnit.SpringDemo6.demo1" />
-        <item itemvalue="JUnit.SpringDemo5.demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -439,26 +468,11 @@
       <workItem from="1558425839594" duration="6836000" />
       <workItem from="1558435579549" duration="120000" />
       <workItem from="1558441101151" duration="75000" />
-      <workItem from="1558441407762" duration="2622000" />
+      <workItem from="1558441407762" duration="3401000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringDemo5_demo1 - 2019.05.21 at 17h 36m 15s.xml">
-      <configuration name="SpringDemo5.demo1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringDemo5_demo1 - 2019.05.21 at 17h 36m 53s.xml">
-      <configuration name="SpringDemo5.demo1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringDemo5_demo1 - 2019.05.21 at 17h 40m 07s.xml">
-      <configuration name="SpringDemo5.demo1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringDemo6_demo1 - 2019.05.21 at 20h 30m 47s.xml">
-      <configuration name="SpringDemo6.demo1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringDemo6_demo1 - 2019.05.21 at 20h 31m 41s.xml">
-      <configuration name="SpringDemo6.demo1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SpringDemo6_demo1 - 2019.05.21 at 20h 32m 55s.xml">
       <configuration name="SpringDemo6.demo1" configurationId="JUnit" />
     </history-entry>
@@ -474,9 +488,24 @@
     <history-entry file="SpringDemo6_demo3 - 2019.05.21 at 20h 47m 54s.xml">
       <configuration name="SpringDemo6.demo3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpringDemo7_demo1 - 2019.05.21 at 21h 10m 47s.xml">
+      <configuration name="SpringDemo7.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo7_demo2 - 2019.05.21 at 21h 14m 08s.xml">
+      <configuration name="SpringDemo7.demo2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo7_demo2 - 2019.05.21 at 21h 14m 53s.xml">
+      <configuration name="SpringDemo7.demo2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo7_demo2 - 2019.05.21 at 21h 16m 39s.xml">
+      <configuration name="SpringDemo7.demo2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo7_demo2 - 2019.05.21 at 21h 17m 18s.xml">
+      <configuration name="SpringDemo7.demo2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59476000" />
+    <option name="totallyTimeSpent" value="60255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -491,7 +520,7 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49937734" visible="true" weight="0.17217484" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49937734" visible="true" weight="0.17217484" />
       <window_info id="Structure" order="1" sideWeight="0.5006227" side_tool="true" weight="0.24520256" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -501,7 +530,7 @@
       <window_info id="Web" order="7" sideWeight="0.5006227" side_tool="true" weight="0.24520256" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7036247" weight="0.3790787" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7036247" visible="true" weight="0.3790787" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.80916846" weight="0.47600767" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -511,7 +540,7 @@
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.60554373" weight="0.23128599" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32940018" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49626866" visible="true" weight="0.21976967" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49626866" weight="0.21976967" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -600,8 +629,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/ApplicationContextAware.class" />
-    <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.class" />
     <entry file="jar://$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar!/org/springframework/beans/factory/support/RootBeanDefinition.class" />
     <entry file="jar://$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar!/org/springframework/core/NestedRuntimeException.class" />
     <entry file="jar://$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.class" />
@@ -963,22 +990,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="653">
+          <caret line="113" column="54" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/Bean1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="324">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#80#81#0" expanded="true" />
             <element signature="e#101#102#0" expanded="true" />
             <element signature="e#83#84#0" expanded="true" />
             <element signature="e#104#105#0" expanded="true" />
             <element signature="e#195#196#0" expanded="true" />
             <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/Bean2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/SpringDemo7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

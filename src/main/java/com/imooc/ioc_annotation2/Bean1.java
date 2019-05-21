@@ -9,14 +9,14 @@ import javax.annotation.PreDestroy;
 public class Bean1 {
     @PostConstruct
     public void init(){
-        System.out.println("init...");
+        System.out.println("initBean1...");
     }
 
     public void say(){
-        System.out.println("say...");
+        System.out.println("sayBean1...");
     }
     @PreDestroy
     public void destroy(){
-        System.out.println("destroy...");
+        System.out.println("destroyBean1...");
     }
 }
