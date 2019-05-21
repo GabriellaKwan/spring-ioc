@@ -12,4 +12,10 @@ public class SpringDemo4 {
         System.out.println(user);
     }
 
+    @Test
+    public void demo2(){
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        Person person = (Person)applicationContext.getBean("person");
+        System.out.println(person);
+    }
 }
