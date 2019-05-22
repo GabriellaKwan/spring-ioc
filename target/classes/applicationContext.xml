@@ -39,6 +39,17 @@
 <!--    </bean>-->
 <!--    <bean class="com.imooc.ioc.demo3.MyBeanPostProcessor"/>-->
 
+
+<!--    <bean id="userDao" class="com.imooc.ioc.demo3.UserDaoImpl"/>-->
+
+    <!--Bean的构造方法属性注入DI--->
+<!--    <bean id="user" class="com.imooc.ioc.demo4.User">-->
+<!--        <constructor-arg name="name" value="Gabriella"/>-->
+<!--        <constructor-arg name="age" value="24"/>-->
+<!--    </bean>-->
+<!--</beans>-->
+
+
 <!--    <bean id="userDao" class="com.imooc.ioc.demo3.UserDaoImpl"/>-->
 
     <!--Bean的属性注入DI——构造方法，也可以通过ref注入对象类型属性========================================-->
@@ -132,3 +143,4 @@
 <!--    <bean id="productDao" class="com.imooc.ioc_annotation3.ProductDao"/>-->
 <!--    <bean id="categoryDao" class="com.imooc.ioc_annotation3.CategoryDao"/>-->
 <!--</beans>-->
+

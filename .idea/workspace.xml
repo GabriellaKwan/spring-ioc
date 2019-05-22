@@ -2,73 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="819a0d5b-8196-498f-8d9e-af45e37492e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_ioc_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_ioc_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_7RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/spring_ioc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/MyAspectAnno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/SpringDemo9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo4/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo4/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo4/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo4/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo4/ProductInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo5/CollectionBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo5/SpringDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation/SpringDemo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/Bean1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/Bean2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation2/SpringDemo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation3/CategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation3/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation3/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation3/SpringDemo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring_ioc.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo1/SpringDemo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo1/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo1/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo2/Bean1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo2/Bean2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo2/Bean2Factory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo2/Bean3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo2/Bean3Factory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo2/SpringDemo2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo3/Man.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo3/MyBeanPostProcessor$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo3/MyBeanPostProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo3/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo3/SpringDemo3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo3/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo3/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo4/Cat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo4/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo4/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo4/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo4/ProductInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo4/SpringDemo4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo4/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo4/SpringDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo4/SpringDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo4/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo4/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext_aspectJ1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/SpringDemo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/SpringDemo9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo4/SpringDemo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo4/SpringDemo4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo4/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/ioc/demo4/User.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,35 +43,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo4/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="399">
+              <caret line="133" column="40" lean-forward="true" selection-start-line="133" selection-start-column="40" selection-end-line="133" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo4/SpringDemo4.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/SpringDemo9.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="331">
+              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,10 +62,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/SpringDemo9.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext_aspectJ1.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="270">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation3/SpringDemo8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,12 +85,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/MyAspectAnno.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="378">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/ProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="378">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="e#82#83#0" expanded="true" />
                 <element signature="e#127#128#0" expanded="true" />
@@ -183,20 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation3/SpringDemo8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="2214">
+              <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -206,9 +125,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -260,12 +179,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation3/ProductService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/ProductDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/SpringDemo9.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/MyAspectAnno.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo4/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo4/SpringDemo4.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext_aspectJ1.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/SpringDemo9.java" />
       </list>
     </option>
   </component>
@@ -288,9 +208,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="658" />
-    <option name="width" value="1179" />
-    <option name="height" value="1220" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -338,7 +259,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_ioc" type="b2602c69:ProjectViewProjectNode" />
@@ -347,8 +268,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="ioc" type="462c0819:PsiDirectoryNode" />
-              <item name="demo4" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc_annotation3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_ioc" type="b2602c69:ProjectViewProjectNode" />
@@ -448,17 +368,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557827452384" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="E:/ssm/步骤一：Spring从入门到进阶/04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="experimental" />
+    <property name="project.structure.side.proportion" value="0.43793103" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -481,17 +401,17 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.SpringDemo9.demo1">
-    <configuration name="SpringDemo6.demo3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringDemo1.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_ioc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.ioc_annotation.*" />
+          <option name="PATTERN" value="com.imooc.aspectJ.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.imooc.ioc_annotation" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.ioc_annotation.SpringDemo6" />
-      <option name="METHOD_NAME" value="demo3" />
+      <option name="PACKAGE_NAME" value="com.imooc.aspectJ.demo1" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.aspectJ.demo1.SpringDemo1" />
+      <option name="METHOD_NAME" value="demo1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -564,10 +484,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SpringDemo9.demo1" />
+        <item itemvalue="JUnit.SpringDemo1.demo1" />
         <item itemvalue="JUnit.SpringDemo8.demo1" />
         <item itemvalue="JUnit.SpringDemo7.demo2" />
         <item itemvalue="JUnit.SpringDemo7.demo1" />
-        <item itemvalue="JUnit.SpringDemo6.demo3" />
       </list>
     </recent_temporary>
   </component>
@@ -593,26 +513,12 @@
       <workItem from="1558435579549" duration="120000" />
       <workItem from="1558441101151" duration="75000" />
       <workItem from="1558441407762" duration="4743000" />
-      <workItem from="1558516321742" duration="2800000" />
+      <workItem from="1558516321742" duration="3385000" />
+      <workItem from="1558534146247" duration="1124000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringDemo7_demo2 - 2019.05.21 at 21h 14m 53s.xml">
-      <configuration name="SpringDemo7.demo2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringDemo7_demo2 - 2019.05.21 at 21h 16m 39s.xml">
-      <configuration name="SpringDemo7.demo2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringDemo7_demo2 - 2019.05.21 at 21h 17m 18s.xml">
-      <configuration name="SpringDemo7.demo2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringDemo8_demo1 - 2019.05.21 at 21h 37m 06s.xml">
-      <configuration name="SpringDemo8.demo1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringDemo8_demo1 - 2019.05.21 at 21h 38m 54s.xml">
-      <configuration name="SpringDemo8.demo1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SpringDemo8_demo1 - 2019.05.22 at 17h 09m 23s.xml">
       <configuration name="SpringDemo8.demo1" configurationId="JUnit" />
     </history-entry>
@@ -628,9 +534,24 @@
     <history-entry file="SpringDemo9_demo1 - 2019.05.22 at 17h 33m 20s.xml">
       <configuration name="SpringDemo9.demo1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpringDemo9_demo1 - 2019.05.22 at 22h 05m 18s.xml">
+      <configuration name="SpringDemo9.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo9_demo1 - 2019.05.22 at 22h 05m 55s.xml">
+      <configuration name="SpringDemo9.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo9_demo1 - 2019.05.22 at 22h 07m 21s.xml">
+      <configuration name="SpringDemo9.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo9_demo1 - 2019.05.22 at 22h 16m 18s.xml">
+      <configuration name="SpringDemo9.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo9_demo1 - 2019.05.22 at 22h 20m 18s.xml">
+      <configuration name="SpringDemo9.demo1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64510000" />
+    <option name="totallyTimeSpent" value="66219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -645,7 +566,7 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49937734" visible="true" weight="0.17377399" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49937734" visible="true" weight="0.17537314" />
       <window_info id="Structure" order="1" sideWeight="0.5006227" side_tool="true" weight="0.24520256" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -655,7 +576,7 @@
       <window_info id="Web" order="7" sideWeight="0.5006227" side_tool="true" weight="0.24520256" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917467" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7036247" weight="0.5028791" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7036247" visible="true" weight="0.23224568" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.80916846" weight="0.47600767" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -665,7 +586,7 @@
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.60554373" weight="0.23128599" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32940018" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49626866" visible="true" weight="0.21976967" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49626866" weight="0.21976967" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -754,7 +675,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/runner/notification/Failure.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1146,65 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation3/SpringDemo8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="e#82#83#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/MyAspectAnno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/SpringDemo9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -1221,8 +1082,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc/demo4/SpringDemo4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="425">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc_annotation3/SpringDemo8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2214">
+          <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#82#83#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/MyAspectAnno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext_aspectJ1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="133" column="40" lean-forward="true" selection-start-line="133" selection-start-column="40" selection-end-line="133" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/aspectJ/demo1/SpringDemo9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1239,7 +1166,8 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.43793103" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1247,11 +1175,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (spring_ioc)|Web</last-edited>
+          <last-edited>Spring (spring_ioc)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.43793103" />
               </list>
             </option>
           </splitter-proportions>
@@ -1285,7 +1213,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.43793103" />
               </list>
             </option>
           </splitter-proportions>
@@ -1309,7 +1237,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.40804598" />
               </list>
             </option>
           </splitter-proportions>
