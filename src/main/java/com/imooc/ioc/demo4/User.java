@@ -1,5 +1,7 @@
 package com.imooc.ioc.demo4;
 
+import static javax.swing.text.html.HTML.Tag.HEAD;
+
 public class User {
     private String name;
     private Integer age;
