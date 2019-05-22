@@ -9,6 +9,11 @@
     <!-- 开启AspectJ的注解开发，自动代理 -->
     <aop:aspectj-autoproxy/>
 
+    <!--目标类===================-->
+    <bean id="productDao" class="com.imooc.aspectJ.demo1.ProductDao"/>
+
+    <!--定义切面-->
+    <bean class="com.imooc.aspectJ.demo1.MyAspectAnno"/>
 
 </beans>
     <!-- UserService的创建权交给Spring（通过工厂+反射+配置文件来完成） -->
