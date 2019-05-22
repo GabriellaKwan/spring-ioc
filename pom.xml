@@ -24,9 +24,9 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.10</version>
+      <version>4.12</version>
     </dependency>
-
+    <!--引入Spring的基本开发包-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-aop</artifactId>
@@ -45,7 +45,6 @@
       <version>5.1.7RELEASE</version>
     </dependency>
 
-
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-beans</artifactId>
@@ -57,7 +56,36 @@
       <artifactId>spring-expression</artifactId>
       <version>5.1.7RELEASE</version>
     </dependency>
+    <!--引入Spring的AOP包-->
+    <dependency>
+      <groupId>aopalliance</groupId>
+      <artifactId>aopalliance</artifactId>
+      <version>1.0</version>
+    </dependency>
 
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aop</artifactId>
+      <version>5.1.7RELEASE</version>
+    </dependency>
+    <!--引入Spring的AspectJ包-->
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.9.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aspects</artifactId>
+      <version>5.1.7RELEASE</version>
+    </dependency>
+    <!--Spring的整合单元测试包-->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>5.1.7RELEASE</version>
+    </dependency>
     <dependency>
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>

@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+       xmlns:aop="http://www.springframework.org/schema/aop" xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
     <!-- bean definitions here -->
 
+    <!-- 开启AspectJ的注解开发，自动代理 -->
+    <aop:aspectj-autoproxy/>
+
+
+</beans>
     <!-- UserService的创建权交给Spring（通过工厂+反射+配置文件来完成） -->
 <!--    <bean id="userService" class="com.imooc.ioc.demo1.UserServiceImpl">-->
 <!--        &lt;!&ndash; 设置属性 依赖注入DI Dependence Injection&ndash;&gt;-->
@@ -113,12 +118,12 @@
 <!--    &lt;!&ndash;开启注解扫描&ndash;&gt;-->
 <!--    <context:component-scan base-package="com.imooc"/>-->
 
-    <context:annotation-config/>
-    <bean id="productService" class="com.imooc.ioc_annotation3.ProductService">
-<!--        <property name="productDao" ref="productDao"/>-->
-<!--        <property name="categoryDao" ref="categoryDao"/>-->
-    </bean>
+<!--    <context:annotation-config/>-->
+<!--    <bean id="productService" class="com.imooc.ioc_annotation3.ProductService">-->
+<!--&lt;!&ndash;        <property name="productDao" ref="productDao"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="categoryDao" ref="categoryDao"/>&ndash;&gt;-->
+<!--    </bean>-->
 
-    <bean id="productDao" class="com.imooc.ioc_annotation3.ProductDao"/>
-    <bean id="categoryDao" class="com.imooc.ioc_annotation3.CategoryDao"/>
-</beans>
+<!--    <bean id="productDao" class="com.imooc.ioc_annotation3.ProductDao"/>-->
+<!--    <bean id="categoryDao" class="com.imooc.ioc_annotation3.CategoryDao"/>-->
+<!--</beans>-->
