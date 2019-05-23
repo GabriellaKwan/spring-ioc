@@ -22,4 +22,9 @@ public class MyAspectXml {
         return object;
     }
 
+    //异常抛出通知
+    public void afterThrowing(Throwable e){
+        System.out.println("XML方式的异常抛出通知=============="+ e);
+    }
+
 }
