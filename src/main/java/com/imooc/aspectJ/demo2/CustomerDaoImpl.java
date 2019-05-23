@@ -9,9 +9,9 @@ public class CustomerDaoImpl implements CustomerDao{
     }
 
     @Override
-    public void update() {
+    public String update() {
         System.out.println("修改客户...");
-
+        return "spring";
     }
 
     @Override
