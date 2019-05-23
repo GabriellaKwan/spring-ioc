@@ -22,7 +22,7 @@ public class CustomerDaoImpl implements CustomerDao{
     @Override
     public void findOne() {
         System.out.println("查询一个客户...");
-        int a = 1/ 0;
+//        int a = 1/ 0;
     }
 
     @Override
