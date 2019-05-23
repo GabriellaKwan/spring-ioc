@@ -16,8 +16,8 @@ public class MyAspectAnno {
         System.out.println("前置通知=================="+joinPoint);
     }
 
-    @AfterReturning(value = "execution(* com.imooc.aspectJ.demo1.ProductDao.update(..))")
-    public void  afterReturning(){
-        System.out.println("后置通知==================");
+    @AfterReturning(value = "execution(* com.imooc.aspectJ.demo1.ProductDao.update(..))",returning = "result")
+    public void  afterReturning(Object result){
+        System.out.println("后置通知=================="+result);
     }
 }
