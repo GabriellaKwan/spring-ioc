@@ -17,8 +17,8 @@ public class SpringDemo10 {
     @Test
     public void demo1(){
         customerDao.save();;
-        customerDao.delete();
         customerDao.update();
+        customerDao.delete();
         customerDao.findOne();
         customerDao.findAll();
     }
