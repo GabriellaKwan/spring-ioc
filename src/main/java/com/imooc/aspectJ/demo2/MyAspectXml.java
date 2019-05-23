@@ -24,7 +24,7 @@ public class MyAspectXml {
 
     //异常抛出通知
     public void afterThrowing(Throwable e){
-        System.out.println("XML方式的异常抛出通知=============="+ e);
+        System.out.println("XML方式的异常抛出通知=============="+ e.getMessage());
     }
 
     //最终通知

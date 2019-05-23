@@ -28,6 +28,6 @@ public class CustomerDaoImpl implements CustomerDao{
     @Override
     public void findAll() {
         System.out.println("查询多个客户...");
-        int a = 1/ 0;
+//        int a = 1/ 0;
     }
 }
