@@ -14,6 +14,12 @@ public class MyAspectXml {
     public void afterReturning(Object result){
         System.out.println("XML方式的后置通知=============="+ result );
     }
-
+    // 环绕通知
+    public Object around(ProceedingJoinPoint joinPoint) throws Throwable {
+        System.out.println("XML方式的环绕前通知==============" );
+        Object object = joinPoint.proceed();
+        System.out.println("XML方式的环绕后通知==============" );
+        return object;
+    }
 
 }
