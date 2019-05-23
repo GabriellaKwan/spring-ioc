@@ -11,7 +11,7 @@ import org.aspectj.lang.annotation.*;
 @Aspect
 public class MyAspectAnno {
 
-    @Before(value="myPointcut1()")
+    @Before(value="myPointcut1()||myPointcut5()")
     public void before(JoinPoint joinPoint){
         System.out.println("前置通知=================="+joinPoint);
     }
@@ -34,13 +34,14 @@ public class MyAspectAnno {
         System.out.println("异常跑出通知=============="+error);
     }
 
-    @After(value = "myPointcut5()")
+    @After(value = "myPointcut5()||myPointcut1()")
     public void after(){
         System.out.println("最终通知==============");
     }
 
     //通过@Pointcut为切点命名，代码维护起来更方便，只需修改方法名即可
     //切点方法：private void 方法名为切点名，无参数方法
+    //当通知多个切点时，可以使用||进行连接
     @Pointcut(value="execution(* com.imooc.aspectJ.demo1.ProductDao.save(..))")
     private void myPointcut1(){}
     @Pointcut(value="execution(* com.imooc.aspectJ.demo1.ProductDao.update(..))")
