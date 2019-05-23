@@ -29,8 +29,14 @@ public class MyAspectAnno {
         return obj;
     }
 
-    @AfterThrowing(value = "execution(* com.imooc.aspectJ.demo1.ProductDao.findOne(..))")
-    public void afterThrowing(){
-        System.out.println("异常跑出通知==============");
+    @AfterThrowing(value = "execution(* com.imooc.aspectJ.demo1.ProductDao.findOne(..))",throwing = "error")
+    public void afterThrowing(Throwable error){
+        System.out.println("异常跑出通知=============="+error);
+    }
+
+    @After(value = "execution(* com.imooc.aspectJ.demo1.ProductDao.findAll(..))")
+    public void after(){
+        System.out.println("最终通知==============");
+
     }
 }
