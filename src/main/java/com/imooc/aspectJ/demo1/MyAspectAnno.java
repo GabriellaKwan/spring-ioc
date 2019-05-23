@@ -3,10 +3,7 @@ package com.imooc.aspectJ.demo1;
 import javafx.beans.binding.ObjectExpression;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.AfterReturning;
-import org.aspectj.lang.annotation.Around;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.*;
 
 /**
  * 切面类
@@ -30,5 +27,10 @@ public class MyAspectAnno {
         Object obj = joinPoint.proceed(); //执行目标方法
         System.out.println("环绕后通知==============");
         return obj;
+    }
+
+    @AfterThrowing(value = "execution(* com.imooc.aspectJ.demo1.ProductDao.findOne(..))")
+    public void afterThrowing(){
+        System.out.println("异常跑出通知==============");
     }
 }
