@@ -109,16 +109,7 @@ public class jdbcTemplateTest {
     @Test
     public void testQueryEntity1(){
         String sql= "select * from student where id = ?";
-        Student stu = jdbcTemplate.queryForObject(sql, new RowMapper<Student>() {
-            public Student mapRow(ResultSet resultSet, int i) throws SQLException {//映射
-                Student stu = new Student();
-                stu.setId(resultSet.getInt("id"));
-                stu.setName(resultSet.getString("name"));
-                stu.setSex(resultSet.getString("sex"));
-                stu.setBorn(resultSet.getDate("born"));//getDate返回类型sql的Date是setBorn的类型的子类，没有问题
-                return stu;//返回构造的stu
-            }
-        }, 4);
+        Student stu = jdbcTemplate.queryForObject(sql, new StudentRowMapper(), 4);
         System.out.println(stu);
     }
     /**
@@ -127,16 +118,19 @@ public class jdbcTemplateTest {
     @Test
     public void testQueryEntity2(){
         String sql= "select * from student";
-        List<Student> stus = jdbcTemplate.query(sql,new RowMapper<Student>() {
-            public Student mapRow(ResultSet resultSet, int i) throws SQLException {//映射
-                Student stu = new Student();
-                stu.setId(resultSet.getInt("id"));
-                stu.setName(resultSet.getString("name"));
-                stu.setSex(resultSet.getString("sex"));
-                stu.setBorn(resultSet.getDate("born"));//getDate返回类型sql的Date是setBorn的类型的子类，没有问题
-                return stu;//返回构造的stu
-            }
-        });
+        List<Student> stus = jdbcTemplate.query(sql,new StudentRowMapper());
         System.out.println(stus);
+    }
+
+    //构造私有对象，降低代码冗余度
+    private class StudentRowMapper implements RowMapper<Student>{
+        public Student mapRow(ResultSet resultSet, int i) throws SQLException {//JDBC方法对属性和字段进行映射
+            Student stu = new Student();
+            stu.setId(resultSet.getInt("id"));
+            stu.setName(resultSet.getString("name"));
+            stu.setSex(resultSet.getString("sex"));
+            stu.setBorn(resultSet.getDate("born"));//setDate返回值类型是setBorn的子类
+            return stu;
+        }
     }
 }
