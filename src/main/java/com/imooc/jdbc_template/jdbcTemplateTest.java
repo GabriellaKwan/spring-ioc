@@ -1,14 +1,18 @@
 package com.imooc.jdbc_template;
 
+import com.imooc.jdbc_template.entity.Student;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -102,5 +106,37 @@ public class jdbcTemplateTest {
         System.out.println(stus);
     }
 
-    
+    @Test
+    public void testQueryEntity1(){
+        String sql= "select * from student where id = ?";
+        Student stu = jdbcTemplate.queryForObject(sql, new RowMapper<Student>() {
+            public Student mapRow(ResultSet resultSet, int i) throws SQLException {//映射
+                Student stu = new Student();
+                stu.setId(resultSet.getInt("id"));
+                stu.setName(resultSet.getString("name"));
+                stu.setSex(resultSet.getString("sex"));
+                stu.setBorn(resultSet.getDate("born"));//getDate返回类型sql的Date是setBorn的类型的子类，没有问题
+                return stu;//返回构造的stu
+            }
+        }, 4);
+        System.out.println(stu);
+    }
+    /**
+     * query方法，获取多条记录
+     */
+    @Test
+    public void testQueryEntity2(){
+        String sql= "select * from student";
+        List<Student> stus = jdbcTemplate.query(sql,new RowMapper<Student>() {
+            public Student mapRow(ResultSet resultSet, int i) throws SQLException {//映射
+                Student stu = new Student();
+                stu.setId(resultSet.getInt("id"));
+                stu.setName(resultSet.getString("name"));
+                stu.setSex(resultSet.getString("sex"));
+                stu.setBorn(resultSet.getDate("born"));//getDate返回类型sql的Date是setBorn的类型的子类，没有问题
+                return stu;//返回构造的stu
+            }
+        });
+        System.out.println(stus);
+    }
 }
