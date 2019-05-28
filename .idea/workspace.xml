@@ -47,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/jdbc_template/jdbcTemplateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+            <state relative-caret-position="289">
+              <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#580#581#0" expanded="true" />
@@ -365,23 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.jdbcTemplateTest.testBatchUpdate2">
-    <configuration name="jdbcTemplateTest.testBatchUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.jdbc_template.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.imooc.jdbc_template" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.jdbc_template.jdbcTemplateTest" />
-      <option name="METHOD_NAME" value="testBatchUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.jdbcTemplateTest.testQueryMap2">
     <configuration name="jdbcTemplateTest.testBatchUpdate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_ioc" />
       <extension name="coverage">
@@ -398,7 +382,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jdbcTemplateTest.testExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="jdbcTemplateTest.testQueryMap1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_ioc" />
       <extension name="coverage">
         <pattern>
@@ -408,13 +392,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.imooc.jdbc_template" />
       <option name="MAIN_CLASS_NAME" value="com.imooc.jdbc_template.jdbcTemplateTest" />
-      <option name="METHOD_NAME" value="testExecute" />
+      <option name="METHOD_NAME" value="testQueryMap1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jdbcTemplateTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="jdbcTemplateTest.testQueryMap2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_ioc" />
       <extension name="coverage">
         <pattern>
@@ -424,13 +408,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.imooc.jdbc_template" />
       <option name="MAIN_CLASS_NAME" value="com.imooc.jdbc_template.jdbcTemplateTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="METHOD_NAME" value="testQueryMap2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jdbcTemplateTest.testUpdate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="jdbcTemplateTest.testQuerySimple1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_ioc" />
       <extension name="coverage">
         <pattern>
@@ -440,7 +424,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.imooc.jdbc_template" />
       <option name="MAIN_CLASS_NAME" value="com.imooc.jdbc_template.jdbcTemplateTest" />
-      <option name="METHOD_NAME" value="testUpdate2" />
+      <option name="METHOD_NAME" value="testQuerySimple1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jdbcTemplateTest.testQuerySimple2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.jdbc_template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.jdbc_template" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.jdbc_template.jdbcTemplateTest" />
+      <option name="METHOD_NAME" value="testQuerySimple2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -448,11 +448,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.jdbcTemplateTest.testQueryMap2" />
+        <item itemvalue="JUnit.jdbcTemplateTest.testQueryMap1" />
+        <item itemvalue="JUnit.jdbcTemplateTest.testQuerySimple2" />
+        <item itemvalue="JUnit.jdbcTemplateTest.testQuerySimple1" />
         <item itemvalue="JUnit.jdbcTemplateTest.testBatchUpdate2" />
-        <item itemvalue="JUnit.jdbcTemplateTest.testBatchUpdate" />
-        <item itemvalue="JUnit.jdbcTemplateTest.testUpdate2" />
-        <item itemvalue="JUnit.jdbcTemplateTest.testExecute" />
-        <item itemvalue="JUnit.jdbcTemplateTest.testUpdate" />
       </list>
     </recent_temporary>
   </component>
@@ -480,26 +480,11 @@
       <workItem from="1558441407762" duration="4743000" />
       <workItem from="1558516321742" duration="3385000" />
       <workItem from="1558534146247" duration="8335000" />
-      <workItem from="1558598511347" duration="9281000" />
+      <workItem from="1558598511347" duration="10698000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_testUpdate - 2019.05.28 at 11h 24m 25s.xml">
-      <configuration name="Test.testUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testUpdate2 - 2019.05.28 at 11h 26m 06s.xml">
-      <configuration name="Test.testUpdate2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testUpdate - 2019.05.28 at 11h 27m 00s.xml">
-      <configuration name="Test.testUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testUpdate - 2019.05.28 at 11h 27m 07s.xml">
-      <configuration name="Test.testUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="jdbcTemplateTest_testExecute - 2019.05.28 at 11h 55m 11s.xml">
-      <configuration name="jdbcTemplateTest.testExecute" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="jdbcTemplateTest_testExecute - 2019.05.28 at 11h 56m 10s.xml">
       <configuration name="jdbcTemplateTest.testExecute" configurationId="JUnit" />
     </history-entry>
@@ -515,9 +500,24 @@
     <history-entry file="jdbcTemplateTest_testBatchUpdate - 2019.05.28 at 12h 02m 57s.xml">
       <configuration name="jdbcTemplateTest.testBatchUpdate" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="jdbcTemplateTest_testBatchUpdate2 - 2019.05.28 at 12h 07m 03s.xml">
+      <configuration name="jdbcTemplateTest.testBatchUpdate2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jdbcTemplateTest_testQuerySimple1 - 2019.05.28 at 12h 11m 29s.xml">
+      <configuration name="jdbcTemplateTest.testQuerySimple1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jdbcTemplateTest_testQuerySimple2 - 2019.05.28 at 12h 16m 33s.xml">
+      <configuration name="jdbcTemplateTest.testQuerySimple2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jdbcTemplateTest_testQueryMap1 - 2019.05.28 at 12h 22m 13s.xml">
+      <configuration name="jdbcTemplateTest.testQueryMap1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jdbcTemplateTest_testQueryMap2 - 2019.05.28 at 12h 26m 32s.xml">
+      <configuration name="jdbcTemplateTest.testQueryMap2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82711000" />
+    <option name="totallyTimeSpent" value="84128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,7 +542,7 @@
       <window_info id="Web" order="7" sideWeight="0.5006227" side_tool="true" weight="0.24520256" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917467" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7036247" visible="true" weight="0.47024953" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7036247" visible="true" weight="0.3637236" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.80916846" weight="0.47600767" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1138,8 +1138,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/jdbc_template/jdbcTemplateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+        <state relative-caret-position="289">
+          <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#580#581#0" expanded="true" />
