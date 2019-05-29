@@ -1,4 +1,4 @@
-package com.imooc.spring_transactions;
+package com.imooc.spring_transactions.springtransactions;
 
 import java.sql.Date;
 import java.util.HashMap;
@@ -15,8 +15,8 @@ import org.springframework.transaction.support.TransactionCallback;
 import org.springframework.transaction.support.TransactionCallbackWithoutResult;
 import org.springframework.transaction.support.TransactionTemplate;
 
-import com.imooc.beans.Book;
-import com.imooc.utils.TemplateUtils;
+import com.mooc.beans.Book;
+import com.mooc.utils.TemplateUtils;
 
 /**
  * Spring的两种编程模式演示

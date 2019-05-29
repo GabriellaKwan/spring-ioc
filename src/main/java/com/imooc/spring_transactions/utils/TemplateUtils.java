@@ -1,4 +1,4 @@
-package com.imooc.utils;
+package com.imooc.spring_transactions.utils;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.jdbc.core.JdbcTemplate;
